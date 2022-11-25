@@ -10,154 +10,70 @@ let actualQuestion = 0;
 // Perguntas
 const questions = [
     {
-      "question": "Qual o nome do irmão do Sasuke?",
+      "question": "PHP foi desenvolvido para qual fim?",
       "answers": [
         {
-          "answer": "Hinata",
-          "correct": false
-        },
-        {
-          "answer": "Naruto",
-          "correct": false
-        },
-        {
-          "answer": "Itachi",
+          "answer": "back-end",
           "correct": true
         },
         {
-          "answer": "Ele não tem irmão",
+          "answer": "front-end",
+          "correct": false
+        },
+        {
+          "answer": "Sistema operacional",
+          "correct": false
+        },
+        {
+          "answer": "Banco de dados",
           "correct": false
         },
       ]
     },
     {
-      "question": "Quem são os personagens do time 7",
+      "question": "Uma forma de declarar variável em JavaScript:",
       "answers": [
         {
-          "answer": "Sasuke, Naruto, Sakura, Kakashi",
+          "answer": "$var",
+          "correct": false
+        },
+        {
+          "answer": "var",
           "correct": true
         },
         {
-          "answer": "Sasuke, Naruto, Hinata, Kakashi",
+          "answer": "@var",
           "correct": false
         },
         {
-          "answer": "Sai, Ino, Naruto, Kakashi",
-          "correct": false
-        },
-        {
-          "answer": "Sakura, Naruto, Sai, Kakashi",
+          "answer": "#let",
           "correct": false
         },
       ]
     },
     {
-      "question": "Quem é o líder da Akatsuki?",
+      "question": "Qual o seletor de id no CSS?",
       "answers": [
         {
-          "answer": "Kona",
-          "correct": false
-        },
-        {
-          "answer": "Nakato",
-          "correct": false
-        },
-        {
-          "answer": "Tobi",
-          "correct": false
-        },
-        {
-          "answer": "Pen",
+          "answer": "#",
           "correct": true
+        },
+        {
+          "answer": ".",
+          "correct": false
+        },
+        {
+          "answer": "@",
+          "correct": false
+        },
+        {
+          "answer": "/",
+          "correct": false
         },
       ]
     },
-    {
-        "question": "Quem são os pais do Sasuke?",
-        "answers": [
-          {
-            "answer": "Koshina, Fugaku",
-            "correct": false
-          },
-          {
-            "answer": "Mikoto, Fugaku",
-            "correct": true
-          },
-          {
-            "answer": "Koshina, Minato",
-            "correct": false
-          },
-          {
-            "answer": "Mikoto, Minato",
-            "correct": false
-          },
-        ]
-      },
-      {
-        "question": "O anime Naruto era para ser um anime de...?",
-        "answers": [
-          {
-            "answer": "Aventura",
-            "correct": false
-          },
-          {
-            "answer": "Ninjas",
-            "correct": false
-          },
-          {
-            "answer": "Piratas",
-            "correct": false
-          },
-          {
-            "answer": "Culinaria",
-            "correct": true
-          },
-        ]
-      },
-      {
-        "question": "O que o Naruto gostava de comer?",
-        "answers": [
-          {
-            "answer": "Bolo de arroz",
-            "correct": false
-          },
-          {
-            "answer": "Lamen",
-            "correct": true
-          },
-          {
-            "answer": "Sushi",
-            "correct": false
-          },
-          {
-            "answer": "Miojo",
-            "correct": false
-          },
-        ]
-      },
-      {
-        "question": "Quem é o amor da sua vida?",
-        "answers": [
-          {
-            "answer": "Sasura",
-            "correct": false
-          },
-          {
-            "answer": "Hinata",
-            "correct": false
-          },
-          {
-            "answer": "Edinelia",
-            "correct": true
-          },
-          {
-            "answer": "Tsunade",
-            "correct": false
-          },
-        ]
-      },
   ]
-
+  
 // Substituição do quizz para a primeiro pergunta
 function init() {
     //criar a pergunta
